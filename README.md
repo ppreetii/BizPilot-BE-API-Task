@@ -14,3 +14,6 @@ He can share this link to his friends.
 - Signup - (with or without referral Code)
 - Login
 - Get User with (referral code and wait position)
+
+### Instructions:
+- For Courier Auth Token, you have to signup for courier https://app.courier.com/login, and use your own key.
