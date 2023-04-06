@@ -10,6 +10,5 @@ db.sync()
     console.log("Server started on port 3000");
   })
   .catch((err) => {
-    console.log(err);
     throw err;
   });

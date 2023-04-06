@@ -39,7 +39,6 @@ const Customer = sequelize.define("customer", {
 
 Customer.beforeCreate((customer) => {
   return Customer.max("id").then((maxId) => {
-    console.log(maxId)
     customer.position = 99 + ( (maxId+1) - 1);
   });
 });
